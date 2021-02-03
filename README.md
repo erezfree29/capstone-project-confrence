@@ -6,17 +6,17 @@ Scope
 
 I have created a concert sign up page based primarily on the design of a global confrence page.
 
-Desktop view
+Main Page
 
-![Alt text](/assets/The-next-page-desktop-view.png?raw=true "Desktop View")
+![Alt text](/assets/screenshots/index-desk.png?raw=true "Desktop View")
 
-Tablet view
+About page
 
-![Alt text](/assets/The-next-page-tablet-view.png?raw=true "Desktop View")
+![Alt text](/assets/screenshots/about-tablet.png?raw=true "Desktop View")
 
-mobile view
+Tickets page
 
-![Alt text](/assets/The-next-page-mobile-view.png?raw=true "Desktop View")
+![Alt text](/assets/tickets-mobile.png?raw=true "Desktop View")
 
 In This project I have:
 
