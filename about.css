@@ -101,6 +101,16 @@ ul li::before {
   font-size: 0.8rem;
 }
 
+.support {
+  animation: rotate 10s infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+
 @media (min-width: 768px) {
   .foot_top {
     height: 15vh;

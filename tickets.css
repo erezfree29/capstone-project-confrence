@@ -14,6 +14,37 @@ table tr td {
   padding: 2%;
 }
 
+.menu_thur {
+  display: flex;
+  justify-content: center;
+}
+
+.top_box {
+  width: 70%;
+  height: 3vh;
+  border: 1px solid rgb(214, 194, 194);
+  background-color: #f6f6f6;
+  font-size: 0.7rem;
+  line-height: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+}
+
+.bottom_box {
+  width: 70%;
+  height: 10vh;
+  border: 1px solid rgb(214, 194, 194);
+  background-color: white;
+}
+
+.submit {
+  margin-left: 40%;
+  margin-top: 6%;
+}
+
+
 @media (min-width: 768px) {
   .red {
     display: none;
@@ -22,10 +53,64 @@ table tr td {
   table tr td {
     font-size: 1.2rem;
   }
+
+  .select {
+    margin-left: 2px;
+  }
+}
+
+.select_ticket {
+  font-size: 0.55rem;
+  border: 1px solid rgb(211, 182, 182);
+  width: 45%;
+  margin-left: 30%;
+  margin-bottom: 2%;
+}
+
+.top {
+  margin-top: 15%;
+}
+
+.redd {
+  color: red;
+}
+
+form {
+  width: 80%;
+  padding-left: 17%;
 }
 
 @media (min-width: 1024px) {
   .top {
     margin-top: 10%;
+  }
+
+  form {
+    width: 75%;
+    padding-left: 30%;
+  }
+
+  .select_ticket {
+    font-size: 0.55rem;
+    border: 1px solid rgb(211, 182, 182);
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 2%;
+  }
+
+  .align_lunch {
+    margin-left: -90px;
+    margin-top: 35px;
+  }
+
+  .align_line {
+    width: 15vw;
+    margin-left: 176px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .align_line {
+    margin-left: 235px;
   }
 }

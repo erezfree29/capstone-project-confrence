@@ -375,6 +375,12 @@ footer {
   padding-top: 6%;
 }
 
+@keyframes rotate {
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+
 @media (min-width: 768px) {
   .mobile_hidden {
     display: block;
@@ -501,6 +507,7 @@ footer {
   .artist {
     width: 50%;
     height: 20vh;
+    animation: rotate 10s infinite;
   }
 
   .mozzila {
