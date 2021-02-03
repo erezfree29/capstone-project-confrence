@@ -148,4 +148,8 @@ table tr td {
   .align_line {
     margin-left: 235px;
   }
+
+  .submit {
+    margin-left: 430px;
+  }
 }
