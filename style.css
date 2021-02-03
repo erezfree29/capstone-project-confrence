@@ -5,10 +5,33 @@
   position: fixed;
   background-color: white;
   z-index: 1;
-  top: 10px;
+  top: 0;
   left: 0;
   right: 0;
   border-bottom: 0.01px solid rgb(231, 223, 223);
+  animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+  0% {
+    background-color: red;
+  }
+
+  25% {
+    background-color: yellow;
+  }
+
+  50% {
+    background-color: green;
+  }
+
+  75% {
+    background-color: brown;
+  }
+
+  100% {
+    background-color: red;
+  }
 }
 
 .mobile_nav_left {
@@ -360,6 +383,7 @@ footer {
   .tablet_nav_top {
     background-color: #3e3e3e;
     display: flex;
+    animation: myanimation 10s infinite;
   }
 
   .tablet_nav_top a {
@@ -471,7 +495,7 @@ footer {
   }
 
   .checkers {
-    z-index: 1;
+    z-index: 10;
   }
 
   .artist {
@@ -505,6 +529,11 @@ footer {
   .rights_tablet {
     margin-right: 20%;
     width: 265vw;
+  }
+
+  .creative_tablet {
+    width: 1000px;
+    line-height: 0.9rem;
   }
 }
 
@@ -543,5 +572,13 @@ footer {
 
   .dum {
     padding-left: 45%;
+  }
+
+  .creative {
+    padding-top: 1%;
+  }
+
+  .rights_tablet {
+    margin-left: 12%;
   }
 }

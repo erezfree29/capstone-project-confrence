@@ -1,0 +1,31 @@
+
+.red {
+  display: flex;
+  justify-content: center;
+}
+
+table tr td {
+  font-size: 0.6rem;
+}
+
+.select_mobile {
+  font-size: 0.55rem;
+  border: 1px solid rgb(211, 182, 182);
+  padding: 2%;
+}
+
+@media (min-width: 768px) {
+  .red {
+    display: none;
+  }
+
+  table tr td {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .top {
+    margin-top: 10%;
+  }
+}
