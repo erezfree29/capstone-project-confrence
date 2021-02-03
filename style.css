@@ -381,6 +381,25 @@ footer {
   }
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 80px;
+  padding: 12px 16px;
+  box-shadow: 0 8px 16px 0 rgba(184, 82, 82, 0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 @media (min-width: 768px) {
   .mobile_hidden {
     display: block;
