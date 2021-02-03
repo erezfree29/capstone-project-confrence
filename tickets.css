@@ -97,6 +97,10 @@ table tr td {
     margin-left: 125px;
     width: 110px;
   }
+
+  .submit {
+    margin-left: 220px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -133,6 +137,10 @@ table tr td {
 
   .bottom_box {
     margin-right: 75px;
+  }
+
+  .submit {
+    margin-left: 310px;
   }
 }
 
