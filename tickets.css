@@ -4,10 +4,6 @@
   justify-content: center;
 }
 
-table tr td {
-  font-size: 0.6rem;
-}
-
 .select_mobile {
   font-size: 0.55rem;
   border: 1px solid rgb(211, 182, 182);
@@ -41,27 +37,9 @@ table tr td {
   margin-left: 15%;
 }
 
-.submit {
-  margin-left: 55%;
-  margin-top: 6%;
-}
-
-.align_line {
-  margin-left: 130px;
-  width: 60px;
-}
-
-.align_lunch {
-  margin-left: 35px;
-}
-
 @media (min-width: 768px) {
   .red {
     display: none;
-  }
-
-  table tr td {
-    font-size: 1.2rem;
   }
 
   .select {
@@ -71,8 +49,7 @@ table tr td {
   .select_ticket {
     font-size: 0.55rem;
     border: 1px solid rgb(211, 182, 182);
-    width: 45%;
-    margin-left: 30%;
+    width: 100%;
     margin-bottom: 2%;
   }
 
@@ -98,58 +75,8 @@ table tr td {
     width: 110px;
   }
 
-  .submit {
-    margin-left: 220px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .top {
-    margin-top: 10%;
-  }
-
-  form {
-    width: 75%;
-    padding-left: 30%;
-  }
-
-  .select_ticket {
-    font-size: 0.55rem;
-    border: 1px solid rgb(211, 182, 182);
-    width: 20%;
-    margin-left: 40%;
-    margin-bottom: 2%;
-  }
-
-  .align_lunch {
-    margin-left: -90px;
-    margin-top: 35px;
-  }
-
-  .align_line {
-    width: 15vw;
-    margin-left: 176px;
-  }
-
-  .top_box {
-    margin-right: 75px;
-  }
-
-  .bottom_box {
-    margin-right: 75px;
-  }
-
-  .submit {
-    margin-left: 310px;
-  }
-}
-
-@media (min-width: 1600px) {
-  .align_line {
-    margin-left: 235px;
-  }
-
-  .submit {
-    margin-left: 430px;
+  .ticket_contain {
+    display: flex;
+    margin-left: 15%;
   }
 }
