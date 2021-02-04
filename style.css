@@ -56,7 +56,7 @@
   position: fixed;
   left: 60px;
   width: 10px;
-  top: 11px;
+  top: 15px;
   color: black;
   font-weight: 700;
 }
@@ -306,7 +306,7 @@ body a {
 }
 
 footer {
-  margin-top: 10%;
+  width: 320px;
 }
 
 .foot_left {
@@ -342,7 +342,7 @@ footer {
   display: flex;
   align-items: center;
   background-color: white;
-  width: 368px;
+  width: 100%;
 }
 
 .foot_top {
@@ -417,7 +417,7 @@ footer {
     display: flex;
     align-items: center;
     animation: myanimation 20s infinite;
-    width: 768px;
+    width: 750px;
   }
 
   .tablet_nav_top a {
@@ -498,8 +498,9 @@ footer {
   }
 
   .top_section {
-    width: 760px;
+    width: 710px;
     margin-top: 32px;
+    margin-left: 20px;
   }
 
   .maze img {
@@ -553,7 +554,7 @@ footer {
   }
 
   .container {
-    max-width: 768px;
+    max-width: 750px;
     background-color: #f7f7f7;
   }
 
