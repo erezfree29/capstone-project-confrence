@@ -37,6 +37,21 @@
   margin-left: 15%;
 }
 
+.submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.align_mobile {
+  margin-left: 30px;
+  width: 280px;
+}
+
+form {
+  width: 260px;
+}
+
 @media (min-width: 768px) {
   .red {
     display: none;
@@ -62,8 +77,8 @@
   }
 
   form {
-    width: 80%;
-    padding-left: 24%;
+    width: 650px;
+    padding-left: 20%;
   }
 
   .align_lunch {
@@ -78,5 +93,14 @@
   .ticket_contain {
     display: flex;
     margin-left: 15%;
+  }
+
+  .menu_thur {
+    margin-right: 15%;
+  }
+
+  .align {
+    margin-right: 15%;
+    width: 400px;
   }
 }

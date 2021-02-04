@@ -37,7 +37,7 @@
 .about_card {
   box-shadow: 0 4px 8px 0 gray;
   transition: 0.3s;
-  width: 90%;
+  width: 312px;
   margin-left: 5%;
   background-color: #414246;
   color: white;
@@ -121,6 +121,7 @@ ul li::before {
     font-size: 1.5rem;
     line-height: 1.5rem;
     height: 25vh;
+    width: 760px;
   }
 
   .creative_tablet,

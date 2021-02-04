@@ -105,7 +105,7 @@
 
 .top_section {
   color: orange;
-  width: 100%;
+  width: 315px;
   background-color: #f0f0f2;
 }
 
@@ -116,7 +116,7 @@
 .card {
   display: flex;
   background-color: #3c3f46;
-  height: 18vh;
+  height: 22vh;
   width: 95%;
   align-items: center;
   margin-top: 15px;
@@ -132,6 +132,7 @@
 .card_data_container img {
   width: 15%;
   padding-right: 5%;
+  padding-top: 6%;
 }
 
 .card:hover {
@@ -141,24 +142,26 @@
 .card img {
   width: 15%;
   margin-left: 10px;
+  padding-right: 5px;
 }
 
 .lecture {
   color: red;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   max-width: 50px;
   line-height: 1.5em;
+  margin-left: 5px;
 }
 
 .about_music {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   line-height: 1.3em;
   height: 6em;
   width: 47vw;
   overflow: hidden;
   color: white;
   position: absolute;
-  left: 105px;
+  left: 130px;
   top: 15px;
 }
 
@@ -194,7 +197,7 @@
 
 .intro {
   color: black;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   margin-top: 20px;
 }
 
@@ -236,7 +239,7 @@
 
 .more_desc {
   color: black;
-  font-size: 0.6rem;
+  font-size: 0.75rem;
 }
 
 .maze img {
@@ -299,7 +302,7 @@ body a {
 
 .contain {
   background-color: #24272e;
-  max-width: 768px;
+  width: 315px;
 }
 
 footer {
@@ -339,12 +342,12 @@ footer {
   display: flex;
   align-items: center;
   background-color: white;
-  max-width: 768px;
+  width: 368px;
 }
 
 .foot_top {
   background-color: #414246;
-  max-width: 768px;
+  width: 368px;
 }
 
 .white {
@@ -413,7 +416,8 @@ footer {
     background-color: #3e3e3e;
     display: flex;
     align-items: center;
-    /* animation: myanimation 20s infinite; */
+    animation: myanimation 20s infinite;
+    width: 768px;
   }
 
   .tablet_nav_top a {
@@ -436,7 +440,7 @@ footer {
     background-color: white;
     border-bottom: 0.5px solid rgb(238, 229, 229);
     z-index: 1;
-    max-width: 768px;
+    width: 768px;
   }
 
   .cards {
@@ -494,7 +498,7 @@ footer {
   }
 
   .top_section {
-    max-width: 768px;
+    width: 760px;
     margin-top: 32px;
   }
 
@@ -555,5 +559,17 @@ footer {
 
   .fa-facebook {
     margin-left: 520px;
+  }
+
+  .foot_top {
+    width: 700px;
+  }
+
+  .contain {
+    width: 760px;
+  }
+
+  .foot_bottom {
+    width: 768px;
   }
 }
