@@ -1,0 +1,106 @@
+
+.red {
+  display: flex;
+  justify-content: center;
+}
+
+.select_mobile {
+  font-size: 0.55rem;
+  border: 1px solid rgb(211, 182, 182);
+  padding: 2%;
+}
+
+.menu_thur {
+  display: flex;
+  justify-content: center;
+}
+
+.top_box {
+  width: 90%;
+  height: 3vh;
+  border: 1px solid rgb(214, 194, 194);
+  background-color: #f6f6f6;
+  font-size: 0.7rem;
+  line-height: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+  margin-left: 15%;
+}
+
+.bottom_box {
+  width: 90%;
+  height: 10vh;
+  border: 1px solid rgb(214, 194, 194);
+  background-color: white;
+  margin-left: 15%;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.align_mobile {
+  margin-left: 30px;
+  width: 280px;
+}
+
+form {
+  width: 260px;
+}
+
+@media (min-width: 768px) {
+  .red {
+    display: none;
+  }
+
+  .select {
+    margin-left: 2px;
+  }
+
+  .select_ticket {
+    font-size: 0.55rem;
+    border: 1px solid rgb(211, 182, 182);
+    width: 100%;
+    margin-bottom: 2%;
+  }
+
+  .top {
+    margin-top: 15%;
+  }
+
+  .redd {
+    color: red;
+  }
+
+  form {
+    width: 650px;
+    padding-left: 20%;
+  }
+
+  .align_lunch {
+    margin-left: -65px;
+  }
+
+  .align_line {
+    margin-left: 125px;
+    width: 110px;
+  }
+
+  .ticket_contain {
+    display: flex;
+    margin-left: 15%;
+  }
+
+  .menu_thur {
+    margin-right: 15%;
+  }
+
+  .align {
+    margin-right: 15%;
+    width: 400px;
+  }
+}
